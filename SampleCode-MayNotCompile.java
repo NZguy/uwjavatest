@@ -1,9 +1,8 @@
 import java.beans.*;
 import java.util.*;
 
-class Point 
-	implements Comparable<Point>
-{
+class Point implements Comparable<Point>{
+	
 	private int x;
 	private int y;
 
@@ -27,6 +26,7 @@ class Point
 	public Point(int xx, int yy) { this.x = xx; this.y = yy; }
 
 	public int getX() { return x; }
+	
 	public void setX(int value) { 
 		int old = x;
 		x = value; 
